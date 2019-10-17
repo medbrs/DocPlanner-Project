@@ -1,0 +1,341 @@
+*{
+    font-family: Helvetica, sans-serif
+}
+body{
+    margin:0 ;
+    padding: 0;
+}
+
+.logo-docplanner{
+    width: 268px;
+    height: 33px;
+    margin-right: 543px;
+}
+section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: white;
+    position: fixed;
+    z-index: 99;
+    /* margin: 50px;
+    margin-top: 9px; */
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 100%
+}
+
+
+li{
+    list-style: none;   
+}
+
+.Lead-section{
+    margin: 2.0625rem auto 3.75rem;
+    text-align: center;
+    color: RGB(33, 165, 141);
+    font-family: 'Open Sans', sans-serif;
+}
+
+.Paragraphs{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+p{
+    font-family: 'Roboto', sans-serif;
+    color: RGB(201, 200, 208);
+    line-height: 30px;
+    
+}
+
+
+.down-nav{
+    padding-top: 44px;
+}
+
+.p1{
+    padding-left: 103px;
+}
+
+.p2{
+    padding-right: 202px;
+}
+
+.Patients-Doctors{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding-bottom: 95px;
+    
+    
+
+}
+
+
+.Patients{
+    background: #00ccb1;
+    border-radius: 10px;
+
+    overflow: hidden;
+    padding-left: 41px;
+    
+    
+}
+.Doctors{
+    background: #3d83df;
+    border-radius: 10px;
+    
+    overflow: hidden;
+    padding-left: 35px;
+    
+}
+
+.logo-1{
+    position: relative;
+    left: 144px;
+    top: -17px;
+    
+}
+
+.logo-2{
+    position: relative;
+    left: 81px;
+}
+
+h2{
+    color: #f4ffff;
+    font-family: 'PT Sans', sans-serif;
+}
+h5{
+    color: #a9cfff;
+}
+
+.site-logos{
+display: flex;
+justify-content: space-around;
+width: 100%;
+}
+
+.last-logoo{
+    position: relative;
+    top: 50px;
+    left: -776px;
+}
+
+
+
+.first{
+    margin: 1px;
+    padding-left: 161px;
+    color: #00b39b;
+    font-weight: 100;
+    font-family:  Helvetica, sans-serif
+    
+}
+
+.logos-4{
+    padding-left: 35px;
+}
+
+
+.worlds-healthcare{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    width: 100%;
+    background-color: #daf7f5;
+    
+    
+}
+
+
+.informations{
+    position: relative;
+    left: -119px;
+}
+
+.selects{
+    padding: 8px;
+}
+
+.flag-pateints{
+    position: relative;
+    top: 58px;
+    font-size: 15px;
+    color: #00b39b;
+}
+
+
+.visits-doctors{
+    position: relative;
+    top: 63px;
+    left: 92px;
+    font-size: 15px;
+    color: #00b39b; 
+    
+}
+
+.visits{
+    padding: 21px;
+}
+
+.doctors{
+    padding: 15px;
+}
+
+
+.big{
+    position: relative;
+    bottom: -52px;
+}
+
+.parag-3{
+    color: #00b39b;
+    font-size: 30px;
+    font-family: Helvetica, sans-serif;
+}
+
+.flagg{
+    background-color: white;
+    padding: 11px;
+    position: relative;
+    left: 37px;
+}
+
+.patient{
+    background-color: white;
+    padding: 11px;
+    padding-left: 0px;
+    padding-right: 3px;
+    position: relative;
+    top: 19px;
+    left: 33px;
+
+}
+
+.doctors{
+    background-color: white;
+}
+.visits{
+    position: relative;
+    top: -43px;
+    background-color: white;
+}
+    
+.we-p{
+    color: #8fa4a7;
+    text-align: center;
+}
+    
+ .we-d{
+     text-align: center;
+
+ }   
+
+ .logo-11{
+    position: relative;
+    /* left: 142px; */
+    top: -8 px;
+    display: felx;
+    /* display: flex; */
+    /* justify-content: center; */
+    right: -92px;
+}
+
+ 
+ .logo-22{
+    position: relative;
+    left: 107px;
+    top: 23px;
+ }
+    
+
+
+.logo-3{
+    position: relative;
+    left: 45px;
+
+
+}
+
+.logo-4{
+    position: relative;
+    left: 47px;
+
+}
+.offices{
+    text-align: center;
+    padding: 58px;
+    color: #00b39b;
+    font-family: Helvetica, sans-serif;
+    font-size: 15px
+    
+}
+
+.office-para{
+    color: #afaaa4;
+    text-align: center;
+}
+
+
+.countrys{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    
+}
+
+.countrys-2{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 40px;
+    margin-bottom: 90px;
+    
+}
+.img-countries{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+.h3-btns{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.countrys div:hover, .countrys-2 div:hover{
+    box-shadow: 10px 10px 99px -32px rgba(0,0,0,0.75);
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.Allbtns{
+    background: #1662c6;
+    border-radius: 4px;
+    font-size: 12px;
+    border: none;
+    color: white;
+    height: 30px;
+    padding: 0px 14px;
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+}
+
+svg {
+    opacity: .3;
+    transition: all .2s ease-in;
+}
+svg:hover{
+    opacity: 1;
+    fill: #00ccb1;
+}
